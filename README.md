@@ -1,59 +1,62 @@
-# QrCode
+# Frontend Mentor - QR code component solution
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.2.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
 
-To start a local development server, run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-```bash
-ng serve
-```
+## Overview
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Screenshot
 
-## Code scaffolding
+![Desktop QR Code Component](./screenshots/desktop.jpg)
+![Mobile QR Code Component](./screenshots/mobile.jpg)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Links
 
-```bash
-ng generate component component-name
-```
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## My process
 
-```bash
-ng generate --help
-```
+### Built with
 
-## Building
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- BEM CSS methodology
+- Desktop-first workflow
+- [Angular](https://angular.dev/) - Project Environment
+- [SCSS](https://sass-lang.com/) - CSS Preprocessor
 
-To build the project run:
+### What I learned
 
-```bash
-ng build
-```
+Previously I mainly worked with React and Tailwind, but this project was a shift toward Angular + SCSS with BEM methodology.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Essentially, Angular doesn't play a role in this project; it's more a matter of HTML structure and semantics, as well as styles.
 
-## Running unit tests
+Key things I focused on:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Writing semantic HTML using `<main>` and `<article>` correctly
+- Structuring styles using BEM naming convention
+- Using SCSS nesting for component-level organization
+- Creating reusable design tokens with CSS custom properties
+- Building a simple layout using Flexbox
 
-```bash
-ng test
-```
+### Useful resources
 
-## Running end-to-end tests
+- [MDN Web Docs](https://developer.mozilla.org/) - reference for HTML/CSS behavior and specifications.
+- [web.dev](https://web.dev/learn/) - structured learning material for modern frontend concepts.
 
-For end-to-end (e2e) testing, run:
+## Author
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- LinkedIn - [Nazar Melnyk](https://www.linkedin.com/in/nazar-melnyk-a347493a3)
+- Frontend Mentor - [@Arlikey](https://www.frontendmentor.io/profile/Arlikey)

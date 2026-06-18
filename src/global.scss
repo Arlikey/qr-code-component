@@ -1,0 +1,24 @@
+:root {
+  --color-white: oklch(100% 0% 0);
+  --color-black: oklch(0% 0% 0);
+
+  --color-slate-300: oklch(0.9083 0.0224 251.64);
+  --color-slate-500: oklch(0.5643 0.0385 258.37);
+  --color-slate-900: oklch(0.3161 0.0612 260.77);
+
+  --color-background: var(--color-slate-300);
+  --color-primary: var(--color-slate-900);
+  --color-secondary: var(--color-slate-500);
+
+  --shadow-black-5: oklch(from var(--color-black) l c h / 0.05);
+
+  --shadow-md: 0 0 25px 25px var(--shadow-black-5);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
